@@ -19,8 +19,8 @@ git remote remove origin
 git remote -v
 # 重新新增git远程链接
 git remote add origin https://<your token>@github.com/<your account>/<your repository>.git
-即 git remote add origin https://<your token>@github.com/teaCupa/<your repository>.git
-# 下拉master分支
+                   <your account> 即teaCupa   <your token>见gitee的git练习项目
+# push到远程
 git push --set-upstream origin main
 ```
 
