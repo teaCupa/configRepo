@@ -27,7 +27,7 @@ git push --set-upstream origin main
 ### git的push网络失败问题
 下载ghelper配套的clash Window版软件，见当前目录的压缩包Clash-for-Windows-0.20.8-x64-CN
 启动Clash软件，设置Clash订阅
-![](useClashWin.jpg)
+![](img/useClashWin.jpg)
 - 对github设置代理,
 ```bash
 #使用socks5代理（推荐）
@@ -36,4 +36,4 @@ git config --global http.https://github.com.proxy socks5://127.0.0.1:7890
 git config --global http.https://github.com.proxy http://127.0.0.1:7890
 ```
 上述端口见
-![](proxyPort.jpg)
+![](img/proxyPort.jpg)
