@@ -28,9 +28,12 @@ git push --set-upstream origin main
 下载ghelper配套的clash Window版软件，见当前目录的压缩包Clash-for-Windows-0.20.8-x64-CN
 启动Clash软件，设置Clash订阅
 ![](useClashWin.jpg)
-- 对github设置代理
+- 对github设置代理,
 ```bash
+#使用socks5代理（推荐）
 git config --global http.https://github.com.proxy socks5://127.0.0.1:7890
+#使用http代理（不推荐）  但是有效
+git config --global http.https://github.com.proxy http://127.0.0.1:7890
 ```
 上述端口见
 ![](proxyPort.jpg)
