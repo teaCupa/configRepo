@@ -35,5 +35,13 @@ git config --global http.https://github.com.proxy socks5://127.0.0.1:7890
 #使用http代理（不推荐）  但是有效
 git config --global http.https://github.com.proxy http://127.0.0.1:7890
 ```
+- 对github查看代理
+```bash
+ git config --global --get http.https://github.com.proxy
+```
+- 对github取消代理
+```bash
+ git config --global --unset http.https://github.com.proxy
+```
 上述端口见
 ![](img/proxyPort.jpg)
